@@ -1,4 +1,7 @@
 @import "./global/global.css";
+@import "./utilitario/tipografia.css";
+@import "./utilitario/cores.css";
+
 @import "./global/header.css";
 
 /* home */
