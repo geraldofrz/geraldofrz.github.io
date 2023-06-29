@@ -9,3 +9,6 @@
 
 /* utilitario */
 @import "./utilitario/componentes.css";
+
+/* bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
