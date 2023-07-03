@@ -1,0 +1,8 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.depoimento-conteudo {
+  background-color: var(--cor-p1);
+}
