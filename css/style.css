@@ -3,12 +3,16 @@
 @import "./utilitario/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* home */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+
+/* seguros */
+@import "./seguros/seguros.css";
 
 /* utilitario */
 @import "./utilitario/componentes.css";
