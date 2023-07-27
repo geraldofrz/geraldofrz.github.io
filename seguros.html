@@ -8,6 +8,7 @@
   <meta name="description" content="Seguros.">
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body id="seguros">
@@ -34,7 +35,7 @@
 
 
     <div class="seguros container">
-      <div class="seguros-item">
+      <div class="seguros-item fadeInLeft" data-anime="200">
         <h3 class="font1-xl cor-6">PRATA</h3>
         <span class="font1-xl cor-0">R$ 199 <span class="font1-xs cor-6">mensal</span></span>
         <ul class="font2-m cor-0">
@@ -46,7 +47,7 @@
         <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
 
-      <div class="seguros-item">
+      <div class="seguros-item fadeInRight" data-anime="400">
         <h3 class="font1-xl cor-p1">OURO</h3>
         <span class="font1-xl cor-0">R$ 299 <span class="font1-xs cor-6">mensal</span></span>
         <ul class="font2-m cor-0">
@@ -167,6 +168,7 @@
       <p class="footer-copy font2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/Plugins/simple-anime.js"></script>
   <script src="./js/scrip.js"></script>
 </body>
 
